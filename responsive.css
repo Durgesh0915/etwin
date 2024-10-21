@@ -1,0 +1,41 @@
+/*webpage size change avte(less than 767.98px)apudu logo size 767.98px ki fix..entha kantey taggadhu*/
+
+@media(max-width:767.98px) {
+    .navbar-brand img {
+        width: 43px !important;
+    }
+    .etvwin-padding-left {
+        padding-left: 5px !important;
+    }
+    .etvwin-padding-right {
+        padding-right: 5px !important;
+    }
+    .etvwin-dropdown-box {
+        display: block;
+    }
+    .etvwin-nav {
+        display: none !important;
+    }
+    i {
+        font-size: 12px;
+        cursor: pointer;
+        padding: 5px !important;
+    }
+    .etvwin-home-video .content .left {
+        margin-left: 25px;
+    }
+    .etvwin-home-video .content .left img {
+        margin-top: 30px !important;
+        width: 180px;
+    }
+    .card {
+        width: 150px;
+    }
+    .card-icon {
+        font-size: 17px !important;
+    }
+    .slider1 {
+        top: 350px;
+        margin-left: 0px;
+    }
+}

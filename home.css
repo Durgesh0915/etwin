@@ -1,0 +1,311 @@
+body {
+    background-color: #141414;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+/* Logo */
+
+.etvwin-padding-left {
+    padding-left: 10px;
+}
+
+.etvwin-padding-right {
+    padding-right: 10px;
+}
+
+
+/* Navbar */
+
+.etvwin-navbar {
+    background-color: #0c0c0c;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    transition: background 0.2s linear;
+}
+
+
+/* Navbar Layout */
+
+.etvwin-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+
+/* Logo Size */
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* Disappear for webview */
+
+.etwvin-dropdown-box {
+    display: none;
+}
+
+
+/* Dropdown for mobile view */
+
+.etvwin-dropdown {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 9px;
+}
+
+.etvwin-dropdown-box .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.796);
+    font-size: 9px !important;
+    color: #fff !important;
+    margin-left: -80px;
+    border-top: 30px;
+}
+
+.etvwin-dropdown-box .dropdown-menu .dropdown-item {
+    color: rgba(255, 255, 255, 0.769);
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.etvwin-dropdown-box .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.111);
+}
+
+
+/* Navbar Buttons */
+
+.etvwin-nav {
+    display: block;
+    align-items: center;
+}
+
+.etvwin-nav button {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.619);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.etvwin-nav button:hover {
+    color: white;
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+i {
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/*video start*/
+
+.etvwin-home-video {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.etvwin-home-video video {
+    width: 100%;
+}
+
+.etvwin-home-video .top {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, transparent, #0c0c0c);
+}
+
+.etvwin-home-video .bottom {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, transparent, #141414);
+}
+
+.etvwin-home-video .content {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
+
+
+/*summa adda program image position*/
+
+.etvwin-home-video .content .left {
+    margin-left: 80px;
+}
+
+
+/*summa adda program image position*/
+
+.etvwin-home-video .content .left img {
+    margin-top: 80px;
+}
+
+
+/*video med display aye buttons evi*/
+
+button {
+    font-size: 20px !important;
+    width: max-content !important;
+    opacity: 0.8;
+}
+
+
+/*video end*/
+
+
+/* Slider */
+
+.slider1 {
+    position: absolute;
+    top: 1090px;
+    z-index: 500;
+}
+
+.slider2 {
+    position: absolute;
+    top: 520px;
+    z-index: 500;
+}
+
+.card {
+    width: 250px;
+    background: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.4);
+    z-index: 10;
+}
+
+.card-icon {
+    color: white;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.etvwin-card-text {
+    font-size: 12px;
+}
+
+.movies {
+    position: absolute;
+    margin-left: 50px;
+    top: 110px;
+    z-index: 500;
+}
+
+.movies1 {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index: 500;
+}
+
+.movies2 {
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    z-index: 500;
+}
+
+.movies3 {
+    position: absolute;
+    top: 150px;
+    left: 950px;
+    z-index: 500;
+}
+
+.movies4 {
+    position: absolute;
+    top: 150px;
+    left: 1250px;
+    z-index: 500;
+}
+
+
+/*footer*/
+
+html,
+body {
+    height: 100%;
+    /* Ensure the body takes up the full height */
+    margin: 0;
+    /* Remove default margin */
+}
+
+body {
+    padding-bottom: 80px;
+    /* Add padding at the bottom equal to the footer height */
+}
+
+footer {
+    position: fixed;
+    /* Fixed position */
+    left: 0;
+    bottom: 0;
+    /* Stick to the bottom */
+    width: 100%;
+    /* Full width */
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    /* Adjust padding as needed */
+    text-align: center;
+    z-index: 1000;
+    /* Ensure it's on top of other content */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}
